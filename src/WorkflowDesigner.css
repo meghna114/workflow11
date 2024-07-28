@@ -1,0 +1,79 @@
+.workflow-designer {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-designer h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.workflow-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-step select,
+.workflow-step input {
+  margin-right: 15px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.workflow-step input {
+  width: 200px;
+}
+
+.workflow-step select {
+  width: 150px;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.remove-button {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.save-workflow-button {
+  display: inline-block;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.save-workflow-button:hover {
+  background-color: #0056b3;
+}
